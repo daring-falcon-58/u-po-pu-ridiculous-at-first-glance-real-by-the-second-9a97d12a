@@ -23,6 +23,12 @@ produce byte-identical output.
 
 import os
 
+# Why this line won (73/75, +7 over the runner-up): the crow mechanism is
+# real — crows are tool-users that collect small objects — and the buyer
+# (the golf course) pays per ball recovered, so the unit economics survive
+# the second look. The runner-up, beehives cooling data centres (66/75),
+# loses on the same test: bee wing-fanning is real, but one hive cannot
+# cool a data centre, so its logic breaks on scale.
 LINE = "We train crows to retrieve lost golf balls from water hazards, because golfers lose 300 million balls a year and courses pay 50 cents per ball the birds bring back."
 
 # The competition gate is 1-200 characters; fail loudly at import time if a
